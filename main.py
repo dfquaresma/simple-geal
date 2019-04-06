@@ -22,7 +22,7 @@ def mutation(gene):
 
 def fit_function(gene):
   x = gene.x
-  return -(math.sin(x**3) + math.atan(x**7) + math.cosh(x))
+  return -(math.sin(x**3) + math.atan(x**7) + math.cosh(x)) # To undestand more, see f(x)=-(sen(x^(3))+tg^(-1)(x^(7))+cosh(x)) at https://www.geogebra.org/graphing
 
 def crossover(gene1, gene2):
   part1 = random.random()
